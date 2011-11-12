@@ -1,0 +1,17 @@
+set term png size %WIDTH%, %HEIGHT%
+set output "%FILE%"
+set title "TPS %TITLE%"
+set grid xtics ytics
+set xlabel "Time during test"
+set ylabel "TPS"
+set xdata time
+set yrange [0:%MAX%]
+set timefmt "%s"
+set nokey
+%OBJECTS%
+set style line 1 lt 1 lc rgb "red" lw 1
+set style line 2 lt 1 lc rgb "blue" lw 1
+set multiplot
+plot "tps.txt" using 1:2 ls 1 with lines
+%UNSETS%
+plot "tps2.txt" using 1:2 ls 2 with lines

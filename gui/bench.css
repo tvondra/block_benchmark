@@ -1,0 +1,150 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+body {
+	padding: 1em;
+}
+
+table {
+	font-size: 100%;
+	border-collapse: collapse;
+	margin-bottom: 0.5em;
+	width: 100%;
+	clear: both;
+}
+
+.tabs a.tab {
+	padding: 5px 9px 5px 9px;
+	background-color: #f4f4f4;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	margin: 1em 5px 0 0;
+	display: block;
+	float: left;
+	font-weight: bold;
+	color: #aaa;
+}
+
+.tabs a.active {
+	background-color: #fcf0f0;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	color: red;
+}
+
+td, th {
+	margin: 0;
+	padding: 4px;
+	border: 1px solid #ccc;
+}
+
+thead th {
+	color: #67BB00;
+	background-color: #eee;
+}
+
+.menu {
+	background-color: #aaa;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	margin-bottom: 0.25em;
+}
+
+.submenu {
+	line-height: 1.75em;
+	background-color: #e6e6f8;
+	padding: 0.25em 0.5em 0.25em 0.5em;
+	margin-bottom: 0.25em;
+	color: #67BB00;
+	font-weight: bold;
+}
+
+.submenu a {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.submenu .active {
+	color: #c00;
+	font-weight: normal;
+}
+
+.submenu label {
+	float: left;
+	width: 4em;
+}
+
+.submenu .items {
+	/* margin-left: 1em; */
+}
+
+.menu a {
+	/* color: #78CC00; */
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.description {
+	background-color: #f4f4f4;
+	padding: 0.5em;
+	margin-bottom: 0.25em;
+	line-height: 1.75em;
+}
+
+h1 {
+	padding: 0.5em;
+	margin: 0 0 0.25em 0;
+	font-size: 150%;
+	background-color: #78CC00;
+	color: white;
+	position: relative;
+}
+
+h2 {
+	padding: 0.5em;
+	margin: 0.5em 0 0.5em 0;
+	font-size: 125%;
+	color: #67BB00;
+	background-color: #e4e4e4;
+}
+
+form {
+	margin: 0 0 2.5em 0;
+	padding: 0;
+}
+
+form input[type=submit], form input[type=reset] {
+	border: 0;
+	padding: 3px;
+}
+
+th.checkbox {
+	width: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.ram, .buffers, .workmem, .fscache, .version, .kernel {
+	text-align: center;
+}
+
+.link {
+	font-size: 75%;
+	position: absolute;
+	right: 8px;
+	bottom: 8px;
+}
+
+.link a {
+	color: white;
+}
+
+a img {
+	border: 0;
+}

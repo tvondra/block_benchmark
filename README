@@ -1,0 +1,11 @@
+This repository contains scripts I used to perform the block-size
+benchmark described here (and in the following articles):
+
+  http://www.fuzzy.cz/en/articles/filesystem-vs-postgresql-block-size/
+  http://www.fuzzy.cz/en/articles/results-of-the-block-size-benchmark-for-hdd-introduction/
+
+You may use it to check how the benchmark was actually performed, to
+understand the results or repeat the benchmark on your own (possibly
+on a different hardware).
+
+This is licensed under a 3-clause BSD license - see LICENSE for details.

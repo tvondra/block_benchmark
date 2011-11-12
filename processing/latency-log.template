@@ -1,0 +1,12 @@
+set term png size %WIDTH%, %HEIGHT%
+set output "%FILE%"
+set title "Latency %TITLE%"
+set log y
+set grid xtics ytics
+set xlabel "Time during test"
+set ylabel "Latency (ms)"
+set xdata time
+set timefmt "%s"
+set nokey
+%OBJECTS%
+plot "latency.txt" using 1:2
